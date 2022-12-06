@@ -5,7 +5,7 @@ import cv2
 def draw_rectangle(event, x, y, flags, params):
     global pt1, pt2, topLeft_clicked, botRight_clicked
 
-    if event == cv2.EVENT_LBUTTONDBLCLK:
+    if event == cv2.EVENT_LBUTTONDOWN:
 
         # RESET the rectangle
         if topLeft_clicked == True and botRight_clicked == True:
