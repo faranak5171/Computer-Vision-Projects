@@ -3,7 +3,7 @@ import numpy as np
 
 
 '''
-    Handling mouse event in openCv
+    Handling mouse event in openCV
 '''
 prevX, prevY = -1, -1
 
